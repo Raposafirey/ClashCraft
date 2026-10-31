@@ -18,7 +18,7 @@ jobs:
           java-version: '21'
 
       - name: Extrair o projeto
-        run: unzip -q de ClashCraft_Android_novo.zip -d projeto
+        run: unzip -q ClashCraft_Android_novo.zip -d projeto
 
       - name: Compilar o mod
         working-directory: projeto/ClashCraft
